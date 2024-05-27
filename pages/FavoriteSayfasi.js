@@ -1,14 +1,21 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import Constants from "expo-constants";
 
-const Favorite = () => {
+
+const FavoriteSayfasi = () => {
   return (
-    <View>
-      <Text>Favorite</Text>
+    <View >
+      <Text style={styles.container}>meg</Text>
     </View>
   )
 }
 
-export default Favorite
+export default FavoriteSayfasi;
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  container:{
+    marginTop:Constants.statusBarHeight,
+
+  }
+})

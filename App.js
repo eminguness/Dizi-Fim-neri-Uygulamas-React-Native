@@ -9,6 +9,7 @@ import DiziSayfasi from './pages/DiziSayfasi';
 import FilmSayfasi from './pages/FilmSayfasi';
 import FavoriteSayfasi from './pages/FavoriteSayfasi';
 import AyarlarSayfasi from './pages/AyarlarSayfasi';
+import Movie from './models/Movie';
 
 
 
@@ -16,7 +17,7 @@ const Stack = createNativeStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Login">
+      <Stack.Navigator screenOptions={{headerShown:false}} initialRouteName="Login">
         <Stack.Screen name="Login" component={LoginScreen} />
         <Stack.Screen name='Home' component={HomeScreen}/>
         <Stack.Screen name='AnaSayfa' component={AnaSayfa}/>
