@@ -130,7 +130,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: 16,
-    backgroundColor: '#f0f0f0',
+    backgroundColor: 'black',
   },
   authContainer: {
     width: '80%',
